@@ -1,0 +1,57 @@
+/* Common Style */
+body{
+  font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* Navbar section */
+
+
+main .section-1 nav{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+main .section-1 nav .logo {
+    font-size: 45px;
+    font-weight: bolder;
+}
+main .section-1 nav .logo .span{
+    color: #FD6E0A;
+}
+main .section-1 nav{
+    display: flex;
+    
+}
+main .section-1 nav .nav-element ul{
+    display: flex;
+    gap: 40%;
+
+}
+
+
+main .section-1 nav .nav-element ul li a{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+}
+main .section-1 nav .nav-element .btn-element{
+    background-color: #FD6E0A;
+    border: none;
+    width: 300%;
+    height: 150%;
+    border-radius: 5px;
+}
+main .section-1 nav .nav-element .btn-element:hover{
+    background-color: rgb(69, 105, 93);
+ transition: 1s;
+}
+
+main .section-1 nav .nav-element .btn-element a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
