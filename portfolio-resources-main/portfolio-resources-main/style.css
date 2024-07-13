@@ -1,6 +1,13 @@
 /* Common Style */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
   font-family: "Open Sans", sans-serif;
+   overflow-y: hidden;
+  overflow-x: hidden;
+  max-width: 1300px;
 }
 a{
     text-decoration: none;
@@ -10,11 +17,6 @@ li{
 }
 /* Navbar section */
 
-
-main .section-1 nav{
-    margin-left: 10%;
-    margin-right: 10%;
-}
 main .section-1 nav .logo {
     font-size: 45px;
     font-weight: bolder;
@@ -24,12 +26,14 @@ main .section-1 nav .logo .span{
 }
 main .section-1 nav{
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 main .section-1 nav .nav-element ul{
     display: flex;
+    align-items: center;
     gap: 40%;
-
+    
 }
 
 
@@ -37,13 +41,17 @@ main .section-1 nav .nav-element ul li a{
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+    display: inline-block;
+  
 }
+
 main .section-1 nav .nav-element .btn-element{
     background-color: #FD6E0A;
     border: none;
-    width: 300%;
-    height: 150%;
     border-radius: 5px;
+    width: 300%;
+    padding: 16px;
+    display: inline-block;
 }
 main .section-1 nav .nav-element .btn-element:hover{
     background-color: rgb(69, 105, 93);
@@ -54,4 +62,24 @@ main .section-1 nav .nav-element .btn-element a{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    display: inline-block;
 }
+
+.link{
+    position: relative;
+}
+.link::after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #601414;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+}
+.link:hover:after{
+    width: 100%;
+    left: 0;
+  }
