@@ -24,7 +24,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:0 10%;
+    margin:0px 10%;
 }
 .title{
     font-size: 45px;
@@ -66,16 +66,18 @@ nav a{
 /* Header style */
 .header{
     background-color: #FFF8F3;
+    background-image: url("./images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.banner{
+    padding: 0px 30px 0px 150px;
+    display: flex;
+    align-items: center;
     background-image: url("./images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-}
-.banner{
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    background-image: url(./images/developer.png);
-   
+    justify-content: space-between;
 }
 .contact-btn{
     background-color: #c09123;
@@ -88,15 +90,13 @@ nav a{
     margin-left: 22px;
 }
 .contact-btn:hover{
-    z-index: 1;
+   
     transition: 1s;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     background-color:#FFF8F3;
 }
-.banner .profile-pic{
-    width: 500px;
-}
+
 .banner-subtitle{
     font-size: 45px;
     font-weight: 600;
@@ -114,5 +114,6 @@ nav a{
     font-weight: 400;
     color: #757575;
     line-height: 30px;
-    margin-bottom: 22px;
+    margin-bottom: 34px;
 }
+
