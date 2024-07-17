@@ -117,3 +117,14 @@ nav a{
     margin-bottom: 34px;
 }
 
+/* ABout Section */
+
+.about-sec{
+    background-color: #FFF8F3;
+    height: 550px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
