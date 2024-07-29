@@ -128,3 +128,23 @@ nav a{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+.about{
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    left: 25%;
+    bottom: -90%;
+}
+.about-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+.about>p{
+    font-size: 18px;
+    font-weight: 400;
+    /* text-indent: -15px; */
+    /* letter-spacing: 0.025em; */
+}
