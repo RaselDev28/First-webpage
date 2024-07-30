@@ -127,6 +127,7 @@ nav a{
     margin-right: 15%;
     margin-top: 10%;
     margin-bottom: 10%;
+    border-radius: 10px;
 }
 
 .about{
@@ -145,6 +146,20 @@ nav a{
 .about>p{
     font-size: 18px;
     font-weight: 400;
-    /* text-indent: -15px; */
-    /* letter-spacing: 0.025em; */
+}
+.bio-data{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.first{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+.second{
+    font-size: 20px;
+    font-weight: 800;
+    color: #474747;
 }
