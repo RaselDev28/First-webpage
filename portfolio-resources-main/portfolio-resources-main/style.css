@@ -19,6 +19,8 @@ body{
     background-color: #4e3e3e;
     transition: 1s;
 }
+
+
 /* Nav related styles */
 nav{
     display: flex;
@@ -162,4 +164,16 @@ nav a{
     font-size: 20px;
     font-weight: 800;
     color: #474747;
+}
+
+/* Card Section */
+.card-section{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 11%;
+    margin-bottom: 10%;
+}
+.card-title{
+    text-align: center;
 }
