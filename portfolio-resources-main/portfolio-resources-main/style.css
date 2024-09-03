@@ -1,7 +1,7 @@
 /* Body styles */
 body{
     font-family: "Open Sans", sans-serif;
-    font-family: "Lato", sans-serif;
+     font-family: "Lato", sans-serif;
 }
 .primary-text{
     color: #FD6E0A;
@@ -176,4 +176,14 @@ nav a{
 }
 .card-title{
     text-align: center;
+
+}
+.card-do{
+    font-size: 35px;
+    font-weight: 700;
+}
+.card-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
 }
