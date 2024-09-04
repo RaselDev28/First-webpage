@@ -186,4 +186,38 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     letter-spacing: normal;
+    margin-bottom: 50px;
 }
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .icon{
+    font-size: 40px;
+    color: #F0DB4F;
+    text-align: left;
+    /* color: #181818; */
+  }
+ .card-headline{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+ }
+ .card-para{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+ }
