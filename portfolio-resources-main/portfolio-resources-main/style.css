@@ -209,7 +209,21 @@ nav a{
     font-size: 40px;
     color: #F0DB4F;
     text-align: left;
-    /* color: #181818; */
+  }
+  .icon-2{
+    font-size: 40px;
+    color: #61DAFB;
+    text-align: left;
+  }
+  .icon-3{
+    font-size: 40px;
+    color: #8CC84B;
+    text-align: left;
+  }
+  .icon-4{
+    font-size: 40px;
+    color: #433374;
+    text-align: left;
   }
  .card-headline{
     font-size: 20px;
