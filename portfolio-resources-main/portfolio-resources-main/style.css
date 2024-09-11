@@ -124,11 +124,11 @@ nav a{
 .about-sec{
     background-color: #FFF8F3;
     height: 550px;
-    width: 70%;
-    margin-left: 15%;
+    /* width: 70%; */
+    /* margin-left: 15%;
     margin-right: 15%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 10%; */
     border-radius: 10px;
 }
 
@@ -168,11 +168,11 @@ nav a{
 
 /* Card Section */
 .card-section{
-    width: 70%;
+    /* width: 70%;
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 15%; */
     margin-top: 11%;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 }
 .card-title{
     text-align: center;
@@ -235,3 +235,63 @@ nav a{
     font-weight: 400;
     text-align: start;
  }
+ .card:hover{
+    transition:.2s;
+    -ms-transform: scale(1);
+  -webkit-transform: scale(1); 
+  transform: scale(1.1); 
+ }
+/* container section*/
+ .container{
+    width: 70%;
+     margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 11%;
+    margin-bottom: 10%; 
+ }
+ /* Resume section */
+ .resume-title{
+    margin-top: 120px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+ }
+ .resume-element{
+   display: flex;
+    width: 100%;
+   justify-content: space-between;
+ }
+ .edu-title{
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .exp-title{
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .education{
+    width: 100%;
+ }
+ .exprience{
+    width: 100%;
+ }
+ .msc{
+    border-bottom: 1px solid gray;
+ }
+
+.msc-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.msc-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #757575;
+}
+.msc-dis{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
