@@ -15,6 +15,9 @@ body{
     font-weight: 700;
     padding: 18px 35px;
 }
+.fa-download{
+    margin-right: 5px;
+}
 .primary-btn:hover{
     background-color: #4e3e3e;
     transition: 1s;
@@ -255,11 +258,13 @@ nav a{
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+
  }
  .resume-element{
    display: flex;
-    width: 100%;
+    width: 98%;
    justify-content: space-between;
+    gap: 2%; 
  }
  .edu-title{
     font-size: 30px;
@@ -275,6 +280,7 @@ nav a{
  .exprience{
     width: 100%;
  }
+ /* MSC */
  .msc{
     border-bottom: 1px solid gray;
  }
@@ -294,4 +300,108 @@ nav a{
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 20px;
+}
+/* BSC */
+.bsc{
+    border-bottom: 1px solid gray;
+ }
+
+.bsc-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.bsc-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #757575;
+}
+.bsc-dis{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+/* Diploma */
+
+.diploma-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.diploma-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #757575;
+}
+.diploma-dis{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+/* Sr-Developer */
+.sr-dev{
+    border-bottom: 1px solid gray;
+ }
+
+.sr-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.sr-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #757575;
+}
+.sr-des{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+/* jr-developer */
+.jr-dev{
+    border-bottom: 1px solid gray;
+ }
+
+.jr-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.jr-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #757575;
+}
+.jr-des{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+/* HTML Developer */
+.html-dev-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.html-dev-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #757575;
+}
+.html-dev-des{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+/* resume-btn */
+.resume-btn{
+    text-align: center;
+    margin-top: 20px;
 }
