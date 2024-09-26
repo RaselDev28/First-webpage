@@ -405,3 +405,14 @@ nav a{
     text-align: center;
     margin-top: 20px;
 }
+
+/* Footer section */
+.footer-sec{
+    background-color: #FFF8F3;
+}
+.last-sec{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 15%;
+}
