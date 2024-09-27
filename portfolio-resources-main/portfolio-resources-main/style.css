@@ -412,7 +412,40 @@ nav a{
 }
 .last-sec{
     display: flex;
-    /* justify-content: space-between; */
     width: 100%;
     gap: 15%;
+    padding-top: 50px;
+    padding-bottom: 127px;
+}
+.connect-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.connect-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+}
+.connect-icon{
+    color: #FD6E0A;
+}
+.fa-twitter{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.massege-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.search{
+    height: 65px;
+    width: 170%;
+    border: none;
+    padding-left: 5%;
+}
+textarea{
+    width: 170%;
+    border: none;
+    padding-left: 5%;
+    height: 180px;
 }
